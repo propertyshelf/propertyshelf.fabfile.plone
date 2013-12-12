@@ -32,4 +32,4 @@ def restart_varnish():
 @api.roles('frontend')
 def restart_haproxy():
     """Restart the HA-Proxy load balancer component."""
-    frontend.restart_haproxy
+    frontend.restart_haproxy()
