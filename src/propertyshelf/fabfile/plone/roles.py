@@ -68,7 +68,9 @@ def create_missing():
             },
             'python': {
                 'checksum': PYTHON_MD5,
-                'configure_options': '--prefix=/usr/local',
+                'configure_options': [
+                    '--prefix=/usr/local',
+                ],
                 'install_method': 'source',
                 'prefix_dir': '/usr/local',
                 'version': '2.7.5',
