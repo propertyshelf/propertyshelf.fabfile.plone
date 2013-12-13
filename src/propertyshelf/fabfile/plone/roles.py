@@ -27,6 +27,7 @@ def create_missing():
         name = required.get('role_base')
         description = 'Plone Application for %s.' % domain
         run_list = (
+            "role[base]",
             "recipe[build-essential]",
         )
         default_attributes = {
