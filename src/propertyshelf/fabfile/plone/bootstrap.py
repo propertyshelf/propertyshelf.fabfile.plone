@@ -47,7 +47,6 @@ def plone_m(nodename=None, image=None, flavor=None):
         'role[%s]' % role_database,
         'role[%s]' % role_frontend,
         'role[%s]' % role_worker,
-        'recipe[propertyshelf::rackspace_backup]',
     ])
 
     opts = dict(
