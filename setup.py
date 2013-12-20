@@ -3,7 +3,7 @@
 
 from setuptools import setup, find_packages
 
-version = '0.1dev'
+version = '0.1'
 
 long_description = (
     open('README.rst').read()
@@ -34,7 +34,7 @@ setup(
     download_url='http://pypi.python.org/pypi/propertyshelf.fabfile.plone',
     license='BSD',
     packages=find_packages('src', exclude=['ez_setup']),
-    package_dir = {'': 'src'},
+    package_dir={'': 'src'},
     namespace_packages=['propertyshelf', 'propertyshelf.fabfile'],
     include_package_data=True,
     zip_safe=False,

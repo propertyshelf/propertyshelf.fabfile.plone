@@ -1,7 +1,7 @@
 Changelog
 =========
 
-0.1 (unreleased)
+0.1 (2013-12-20)
 ----------------
 
-- No changes yet.
+- Added basic deployment and management commands for Plone applications.
